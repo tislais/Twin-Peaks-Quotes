@@ -1,13 +1,9 @@
 import './App.css';
-import Header from './components/Header';
-import Load from './components/quote/Load';
+import TwinPeaksQuote from './containers/TwinPeaksQuote';
 
 function App() {
   return (
-    <div className="App h-screen">
-      <Header />
-      <Load />
-    </div>
+    <TwinPeaksQuote />
   );
 }
 
